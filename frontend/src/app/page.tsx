@@ -6,26 +6,31 @@ export default function Home() {
       <div className="max-w-7xl mx-auto px-4 py-24">
         {/* Hero Section */}
         <div className="text-center space-y-8 mb-24">
-          <h1 className="text-6xl sm:text-7xl font-bold tracking-tight text-black">
-            RAG Web UI
+          <img
+            src="/doctome-logo.png"
+            alt="DOCTOME"
+            className="h-24 mx-auto mb-8"
+          />
+          <h1 className="text-6xl sm:text-7xl font-bold tracking-tight text-blue-600">
+            DOCTOME
           </h1>
-          <p className="text-xl sm:text-2xl text-gray-500 max-w-3xl mx-auto font-light leading-relaxed">
-            Experience the next generation of AI interaction.
+          <p className="text-xl sm:text-2xl text-gray-600 max-w-3xl mx-auto font-light leading-relaxed">
+            Plateforme de gestion des connaissances médicales alimentée par l&apos;IA.
             <br />
-            Powerful. Intuitive. Revolutionary.
+            Puissante. Intuitive. Révolutionnaire.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mt-12">
             <Link
               href="/register"
-              className="px-8 py-4 bg-blue-600 text-white rounded-full text-lg font-medium transition-all duration-300 hover:bg-blue-700 w-full sm:w-auto"
+              className="px-8 py-4 bg-blue-600 text-white rounded-lg text-lg font-semibold transition-all duration-300 hover:bg-blue-700 shadow-md w-full sm:w-auto"
             >
-              Get Started
+              Commencer
             </Link>
             <Link
               href="/login"
-              className="px-8 py-4 bg-gray-200 text-gray-800 rounded-full text-lg font-medium transition-all duration-300 hover:bg-gray-300 w-full sm:w-auto"
+              className="px-8 py-4 bg-gray-200 text-gray-800 rounded-lg text-lg font-semibold transition-all duration-300 hover:bg-gray-300 w-full sm:w-auto"
             >
-              Sign In
+              Se Connecter
             </Link>
             <a
               href="https://github.com/JohannLai/rag-web-ui"
