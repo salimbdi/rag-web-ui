@@ -110,11 +110,17 @@ export default function RegisterPage() {
         <div className="bg-white rounded-lg shadow-lg p-8 space-y-8">
           {/* Logo Section */}
           <div className="text-center">
-            <img
-              src="/doctome-logo.png"
-              alt="DOCTOME Logo"
-              className="h-16 w-auto mx-auto mb-4"
-            />
+            <div className="flex items-center justify-center gap-2 mb-6">
+              <img
+                src="/doctome-logo.png"
+                alt="RADOCT Logo"
+                className="h-12 w-auto"
+              />
+              <div className="flex flex-col leading-none">
+                <span className="text-xl font-bold text-blue-600">RADOCT</span>
+                <span className="text-xs text-blue-500 font-medium">Healthcare</span>
+              </div>
+            </div>
           </div>
 
           {/* Header */}
