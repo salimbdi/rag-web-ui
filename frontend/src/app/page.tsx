@@ -6,14 +6,19 @@ export default function Home() {
       <div className="max-w-7xl mx-auto px-4 py-24">
         {/* Hero Section */}
         <div className="text-center space-y-8 mb-24">
-          <img
-            src="/doctome-logo.png"
-            alt="DOCTOME"
-            className="h-24 mx-auto mb-8"
-          />
-          <h1 className="text-6xl sm:text-7xl font-bold tracking-tight text-blue-600">
-            DOCTOME
-          </h1>
+          <div className="flex items-center justify-center gap-4">
+            <img
+              src="/doctome-logo.png"
+              alt="RADOCT"
+              className="h-20 w-auto"
+            />
+            <div className="flex flex-col leading-none">
+              <h1 className="text-6xl sm:text-7xl font-bold tracking-tight text-blue-600">
+                RADOCT
+              </h1>
+              <p className="text-lg text-blue-500 font-medium">Healthcare Platform</p>
+            </div>
+          </div>
           <p className="text-xl sm:text-2xl text-gray-600 max-w-3xl mx-auto font-light leading-relaxed">
             Plateforme de gestion des connaissances médicales alimentée par l&apos;IA.
             <br />

@@ -4,70 +4,70 @@
 
 @layer base {
   :root {
-    /* Clinical tech color palette */
-    --background: 0 0% 98%;
-    --foreground: 215 13.8% 34.9%;
+    /* RADOCT Healthcare - Blue & White Color Palette */
+    --background: 0 0% 100%;
+    --foreground: 215 16.7% 20%;
 
     --card: 0 0% 100%;
-    --card-foreground: 215 13.8% 34.9%;
+    --card-foreground: 215 16.7% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 215 13.8% 34.9%;
+    --popover-foreground: 215 16.7% 20%;
 
-    /* Deep Teal/Emerald for primary actions */
-    --primary: 162 72.8% 46.1%;
+    /* Professional Blue for primary actions */
+    --primary: 217 100% 43.9%;
     --primary-foreground: 0 0% 100%;
 
-    /* Slate grays for secondary */
-    --secondary: 215 16.0% 46.8%;
-    --secondary-foreground: 0 0% 100%;
+    /* Light blue for secondary */
+    --secondary: 217 92% 76%;
+    --secondary-foreground: 217 100% 43.9%;
 
-    --muted: 215 13.8% 91.4%;
-    --muted-foreground: 215 10.3% 48.4%;
+    --muted: 215 15.8% 97.3%;
+    --muted-foreground: 215 13.8% 34.9%;
 
-    /* Emerald accent */
-    --accent: 162 71.8% 46.1%;
+    /* Blue accent */
+    --accent: 217 100% 43.9%;
     --accent-foreground: 0 0% 100%;
 
-    /* Crimson for medical alerts */
+    /* Red for alerts */
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 215 13.8% 91.4%;
-    --input: 215 13.8% 91.4%;
-    --ring: 162 72.8% 46.1%;
+    --border: 215 15.8% 92.3%;
+    --input: 215 15.8% 92.3%;
+    --ring: 217 100% 43.9%;
 
     --radius: 0.5rem;
   }
 
   .dark {
-    --background: 215 28% 6%;
+    --background: 215 28% 8%;
     --foreground: 0 0% 95%;
 
-    --card: 215 27.9% 16.9%;
+    --card: 215 28% 16%;
     --card-foreground: 0 0% 95%;
 
-    --popover: 215 27.9% 16.9%;
+    --popover: 215 28% 16%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 162 71.8% 56.1%;
-    --primary-foreground: 215 28% 6%;
+    --primary: 217 100% 56.1%;
+    --primary-foreground: 215 28% 8%;
 
-    --secondary: 215 16.0% 46.8%;
-    --secondary-foreground: 0 0% 95%;
+    --secondary: 217 92% 56%;
+    --secondary-foreground: 215 28% 8%;
 
-    --muted: 215 22.7% 29.0%;
-    --muted-foreground: 215 13.8% 63.5%;
+    --muted: 215 27.8% 25%;
+    --muted-foreground: 215 15.8% 70%;
 
-    --accent: 162 71.8% 56.1%;
-    --accent-foreground: 215 28% 6%;
+    --accent: 217 100% 56.1%;
+    --accent-foreground: 215 28% 8%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 215 22.7% 29.0%;
-    --input: 215 22.7% 29.0%;
-    --ring: 162 71.8% 56.1%;
+    --border: 215 27.8% 25%;
+    --input: 215 27.8% 25%;
+    --ring: 217 100% 56.1%;
   }
 }
 

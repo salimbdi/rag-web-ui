@@ -56,14 +56,17 @@ export default function DashboardLayout({
           <div className="flex h-20 items-center border-b pl-4 pr-4 bg-gradient-to-r from-blue-50 to-blue-100">
             <Link
               href="/dashboard"
-              className="flex items-center gap-3 text-lg font-bold hover:opacity-80 transition-opacity w-full"
+              className="flex items-center gap-3 hover:opacity-80 transition-opacity w-full"
             >
               <img
                 src="/doctome-logo.png"
-                alt="DOCTOME Logo"
+                alt="RADOCT Logo"
                 className="h-12 w-auto"
               />
-              <span className="text-blue-900 font-bold tracking-wide">DOCTOME</span>
+              <div className="flex flex-col leading-none">
+                <span className="text-lg font-bold text-blue-600">RADOCT</span>
+                <span className="text-xs text-blue-500 font-medium">Healthcare Platform</span>
+              </div>
             </Link>
           </div>
 
